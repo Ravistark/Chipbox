@@ -1,0 +1,61 @@
+/* AutocompleteChips.css */
+
+.autocomplete-chips-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+}
+
+.chip {
+  background-color: #e2e8f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  cursor: move;
+}
+
+.chip .delete-button {
+  margin-left: 4px;
+  cursor: pointer;
+  color: red;
+}
+
+.autocomplete-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 1;
+}
+
+.autocomplete-list div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Other styles remain the same */
